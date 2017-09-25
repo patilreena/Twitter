@@ -1,5 +1,5 @@
 class HomeController < ApplicationController
   def index
   	@brand = 'Twitter'
-  end
+  	@tweets = Tweet.last(3)
 end

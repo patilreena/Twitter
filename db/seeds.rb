@@ -5,3 +5,18 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+tweets = [
+  { message: 'I like cake'},
+  { message: 'I like apple'},
+  { message: 'I like orange'},
+  { message: 'I like apple'},
+  { message: 'I like chocolate'},
+  { message: 'I like coke'},
+  { message: 'I like chips'},
+  { message: 'I like grapes'},
+  { message: 'I like sweets'},
+  { message: 'I like biscuits'},
+]
+
+ Tweet.create(tweets)
