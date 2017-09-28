@@ -8,8 +8,8 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
-  	 <h1> Reena like fruits</h1>
+  <body class="container">
+  	
 
   	<!--  it will create a login form -->
   	 <nav>
@@ -20,9 +20,12 @@
         <% end %>
   	 </nav>
 
-  	 
+
      <p class="notice"><%= notice %></p>
      <p class="alert"><%= alert %></p>
-      <%= yield %>
+     
+    <%= yield %>
+
+    <%= render "layouts/footer" %>
   </body>
 </html>
